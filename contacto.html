@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+	<title></title>
+</head>
+<body>
+	<header class="bg-header py-2">
+  <div class="container-fluid px-4">
+    <div class="row align-items-center">
+
+      <!-- Logo (Renglones de la columna izquierda) -->
+      <div class="col-12 col-lg-2 text-center text-lg-start">
+        <img src="img/logo.png" alt="Logo de la empresa" class="img-fluid mx-auto d-block d-lg-inline-block" style="max-width: 120px;">
+      </div>
+
+      <!-- Menú (Renglones de la columna derecha) -->
+      <nav class="navbar navbar-expand-lg navbar-light col-12 col-lg-10">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="typ"class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="typ"class="nav-item">
+                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+              </li>
+              <li class="typ"class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</header>
+
+<!-- SECCIÓN DE CONTACTO CON IMAGEN -->
+<section class="container my-5">
+    <div class="row align-items-stretch justify-content-center">
+        
+        <!-- 1. Columna Izquierda: Formulario de Contacto -->
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <div class="card shadow-sm border-0 p-4 h-100" style="background-color: #E8D3AA; color: #3B1F1B;">
+                <div class="card-body">
+                    
+                    <h2 class="text-center mb-3" style="font-family: 'Baskervville', serif;">Contáctanos</h2>
+                    <p class="text-center mb-4">¿Tienes dudas o sugerencias? Nos encantaría escucharte.</p>
+                    
+                    <!-- Formulario -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="correo" placeholder="tu_correo@gmail.com">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        
+                        <div class="d-grid">
+                            <button type="submit" class="btn" style="background-color: #3B1F1B; color: #E8D3AA;">Enviar Mensaje</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Columna Derecha: Imagen del mismo tamaño -->
+        <div class="col-12 col-md-6">
+            <img src="img/contacto.png" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="Local de Crepes & Waffles">
+        </div>
+
+    </div>
+</section>
+
+<section class="container my-5">
+    <div class="row align-items-center justify-content-between">
+
+        <!-- 1. Columna Texto (Más ancha: 7 columnas para expandir el texto) -->
+        <div class="col-12 col-md-7 text-center text-md-start">
+            <h1 class="typ titulo-seccion">CARACTERÍSTICAS DE LA EMPRESA</h1>
+            <article>
+                <p class="typ">
+                    Crepes & Waffles es una empresa colombiana del sector gastronómico, fundada en Bogotá el 13 de abril de 1980 por Beatriz Fernández y Eduardo Macía. Se caracteriza por ofrecer una amplia variedad de productos que incluyen crepes dulces y salados, waffles, ensaladas, platos especiales, postres y helados, combinando la creatividad culinaria con la calidad de sus ingredientes y una presentación atractiva. Su propuesta busca brindar experiencias gastronómicas agradables en espacios acogedores, donde la atención al cliente y el cuidado de los detalles forman parte de su identidad.
+                </p>
+                <p class="typ">
+                    La empresa se distingue por mantener una filosofía centrada en el servicio, el trabajo hecho con amor y el reconocimiento del valor de las personas. Desde sus inicios, ha dado especial importancia al papel de las mujeres dentro de su equipo de trabajo, promoviendo oportunidades laborales y el desarrollo personal y profesional. Asimismo, impulsa iniciativas de responsabilidad social y ambiental mediante el trabajo con pequeños productores, comunidades campesinas y proveedores que contribuyen a una cadena de abastecimiento más responsable.
+                </p>
+            </article>
+        </div>
+
+        <!-- 2. Columna Imagen (5 columnas, centrada horizontalmente) -->
+        <div class="col-12 col-md-5 text-center">
+            <img src="img/local2.jpeg" class="img-fluid rounded shadow-sm mx-auto d-block" style="max-width: 85%;" alt="Local Crepes & Waffles">
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Scripts de Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+  </main>
+
+  <script src="js/bootstrap.min.js"></script>
+
+    <footer class="py-4" style="background-color: #E8D3AA; color: #3B1F1B;">
+      <div class="container py-4">
+        <div class="row justify-content-between">
+
+            <!-- Columna Izquierda (Contáctenos) -->
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <h5 class="typ">Contáctenos</h5>
+              <h6 class="typ">Sucursales en toda colombia</h6>
+              <h6 class="typ">Tel: 11675987</h6>
+              <h6 class="typ">crepes&waffles@gmail.com</h6>
+            </div>
+
+<!-- Columna central (Contáctenos) -->
+            <div class="col-12 col-md-4 mb-4 mb-md-0 text-md-center">
+              <h5 class="typ">Redes sociales</h5>
+              <a href="https://www.instagram.com/crepesywaffles/?hl=es-la"><i class="bi bi-instagram"></i></a>
+            </div>
+
+            <!-- Columna Derecha (Horarios) -->
+            <div class="col-12 col-md-4 text-md-end">
+              <h5 class="typ">Horarios a nivel nacional</h5>
+              <h6 class="typ">lunes - Domingo</h6>
+              <h6 class="typ">9:00am - 9:00pm</h6>
+            </div>
+
+    </div>
+        </div>
+        
+      </div>
+        
+      </footer>
+</body>
+</html>

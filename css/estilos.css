@@ -1,0 +1,21 @@
+header{
+	background-color: #E8D3AA;
+}
+
+.typ{
+	font-family: "Baskervville", serif;
+}
+section p {
+	max-width: 350px;
+/* Centra el bloque del texto internamente cuando la pantalla es grande */
+@media (min-width: 768px) {
+  .col-md-6:has(.titulo-seccion) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+footer{
+	background-color: #E8D3AA;
+	color: #3B1F1B;
+}
